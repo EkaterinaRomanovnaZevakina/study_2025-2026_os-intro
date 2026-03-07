@@ -234,14 +234,14 @@ core.autocrlf input: конвертация CRLF->LF только при ком�
 
 Например, в [табл. @tbl-std-dir] приведено краткое описание стандартных каталогов Unix.
 
-| core.autocrlf |     false    |  input  |  true                                                                                             |
-|---------------|--------------|---------|---------------------------------------------------------------------------------------------------|
-| git commit    |    LF-> LF   |   LF-> LF  | LF-> CRLF                                                                                      |
-|               |   CR -> CR   |  CR -> CR  | CR -> CR                                                                                       |
-|               | CRLF -> CRLF | CRLF -> LF | CRLF -> CRLF                                                                                   |
-| git checkout  |    LF-> LF   |   LF-> LF  | LF-> CRLF                                                                                      |
-|               |   CR -> CR   |  CR -> CR  | CR -> CR                                                                                       |
-|               | CRLF -> CRLF | CRLF -> CRLF | CRLF -> CRLF                                                                                 |                                            
+| core.autocrlf |     false    |  input  |  true                                                                                                  |
+|---------------|--------------|--------------|---------------------------------------------------------------------------------------------------|
+| git commit    |    LF-> LF   |   LF-> LF    | LF-> CRLF                                                                                         |
+|               |   CR -> CR   |  CR -> CR    | CR -> CR                                                                                          |
+|               | CRLF -> CRLF | CRLF -> LF   | CRLF -> CRLF                                                                                      |
+| git checkout  |    LF-> LF   |   LF-> LF    | LF-> CRLF                                                                                         |
+|               |   CR -> CR   |  CR -> CR    | CR -> CR                                                                                          |
+|               | CRLF -> CRLF | CRLF -> CRLF | CRLF -> CRLF                                                                                      |                                            
 : Описание некоторых каталогов файловой системы GNU Linux {#tbl-std-dir}
 
 Установка параметра:
