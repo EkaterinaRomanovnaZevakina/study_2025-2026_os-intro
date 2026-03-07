@@ -1,10 +1,11 @@
----
 ## Author
 author:
-  name: Дмитрий Сергеевич Кулябов
-  degrees: DSc
-  orcid: 0000-0002-0877-7063
-  email: kulyabov-ds@rudn.ru
+  name: Зевакина Екатерина Романовна
+  faculty: Факультет физико-математических и естественных наук
+  department: Кафедра прикладной информатики и теории вероятностей
+  study group: НКАбд-02-25
+  student ID card: 1032253564
+  email: 1032253564@rudn.ru
   affiliation:
     - name: Российский университет дружбы народов
       country: Российская Федерация
@@ -12,11 +13,11 @@ author:
       city: Москва
       address: ул. Миклухо-Маклая, д. 6
 ## Title
-title: Структура научной презентации
-subtitle: Простейший вариант
+title: "Отчёт по лабораторной работе №1"
+subtitle: "Архитектура компьютеров: "Операционные системы""
 license: CC BY
-date: today
-date-format: "YYYY-MM-DD" # Example: 2025-09-06
+date: 07 march
+date-format: "2026-03-07"
 ---
 
 # Информация
@@ -26,12 +27,11 @@ date-format: "YYYY-MM-DD" # Example: 2025-09-06
 :::::::::::::: {.columns align=center}
 ::: {.column width="70%"}
 
-  * Кулябов Дмитрий Сергеевич
-  * д.ф.-м.н., профессор
-  * профессор кафедры теории вероятностей и кибербезопасности
+  * Зевакина Екатерина Романовна
+  * студентка
   * Российский университет дружбы народов им. П. Лумумбы
-  * [kulyabov-ds@rudn.ru](mailto:kulyabov-ds@rudn.ru)
-  * <https://yamadharma.github.io/ru/>
+  * [1032253564@rudn.ru](mailto:1032253564@rudn.ru)
+  * <https://github.com/EkaterinaRomanovnaZevakina>
 
 :::
 ::: {.column width="30%"}
