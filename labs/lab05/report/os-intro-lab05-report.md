@@ -26,29 +26,6 @@ toc-title: "Содержание"
 bibliography: bib/cite.bib
 csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
 
-## Pdf output format
-toc: true # Table of contents
-toc-depth: 2
-lof: true # List of figures
-lot: true # List of tables
-fontsize: 12pt
-linestretch: 1.5
-papersize: a4
-documentclass: scrreprt
-
-## I18n polyglossia
-polyglossia-lang:
-  name: russian
-  options:
-  - spelling=modern
-  - babelshorthands=true
-polyglossia-otherlangs:
-  name: english
-
-## I18n babel
-babel-lang: russian
-babel-otherlangs: english
-
 ## Fonts
 mainfont: IBM Plex Serif
 romanfont: IBM Plex Serif
@@ -79,13 +56,6 @@ listingTitle: "Листинг"
 lofTitle: "Список иллюстраций"
 lotTitle: "Список таблиц"
 lolTitle: "Листинги"
-
-## Misc options
-indent: true
-header-includes:
-  - \usepackage{indentfirst}
-  - \usepackage{float} # keep figures where there are in the text
-  - \floatplacement{figure}{H} # keep figures where there are in the text
 
 ---
 
