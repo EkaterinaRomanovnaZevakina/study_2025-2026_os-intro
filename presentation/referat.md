@@ -225,3 +225,13 @@ f ... /bin/ps
 4. **Главное правило**: эталонная база должна храниться НЕ на проверяемом сервере.
 
 Внедрите эту практику на всех серверах, смотрящих наружу. Это один из столпов защиты глубины (defense in depth) в UNIX-мире.
+
+# Список ссылок на сайты, с которых взята информация
+
+[Сайт debian](https://manpages.debian.org/experimental/aide/aide.1.en.html)
+
+[Сайт с командами на Linux](https://linuxcommandlibrary.com/man/samhain#description)
+
+[Сайт redhat](https://docs.redhat.com/en/documentation/Red_Hat_Enterprise_Linux/8/html/managing_monitoring_and_updating_the_kernel/enhancing-security-with-the-kernel-integrity-subsystem_managing-monitoring-and-updating-the-kernel)
+
+[Сайт kernel](https://lore.kernel.org/all/524176BD.9060403@imgtec.com/T/#u)
