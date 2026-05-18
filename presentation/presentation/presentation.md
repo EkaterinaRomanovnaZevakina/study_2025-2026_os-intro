@@ -36,7 +36,7 @@ header-includes:
 :::
 ::: {.column width="30%"}
 
-![]()
+![](my_photo.png)
 
 :::
 ::::::::::::::
